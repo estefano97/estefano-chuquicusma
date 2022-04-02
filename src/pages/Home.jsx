@@ -26,7 +26,7 @@ const Home = () => {
             <div className={styles.textoSombra}>
                 <img src={estefano} alt="estefano2" />
                 <h1>Estefano Chuquicusma</h1>
-                <p>Un Creativo Programador Web Frontend y Backend </p>
+                <p>A creative developer web frontend and backend.</p>
             </div>
         </div>
         <video autoPlay muted loop className={styles.videoBackground} src={video}></video>
@@ -37,23 +37,25 @@ const Home = () => {
           <div
           className={styles.sobreMiTexto}>
             <div className={styles.sobreMiTitle}>
-              <h2>Sobre mí</h2>
+              <h2>About me</h2>
               <hr/>
             </div>
             <div className={styles.sobreMiDescripcion}>
-              <p>Mi nombre es Estefano Chuquicusma, soy un programador FullStack nacido en Roma, Italia, que actualmente reside en Guayaquil, Ecuador, Comencé en el mundo del desarrollo de software y diseño grafico siendo freelancer a mis 15 años con WordPress y Photoshop. Aunque actualmente domino muchas tecnologías tanto del lado del cliente, como del servidor.</p>
-              <p>Me encanta crear interfaces webs que sean atractivas, modernas, innovadoras y que sean adaptables a todo tipo de dispositivos para la comodidad de los usuarios. <br /> En cuanto a backend, tengo una fuerte inclinación a la creación de API REST que proporcionen información y lleven a cabo procesos  interesantes que puedan aportar información ordenada, y respetando los parámetros REST, a los creadores de interfaces dinámicas.</p>
+              <p>Hello!, my name is Estefano Chuquicusma, I am a FullStack Developer living in Guayaquil, Ecuador. I started in the world of the software development and graphic design making a freelancer proyects when i was 17 years old with Web Tecnologies(HTML, CSS, JS), WordPress and Photoshop. <br/>
+              But i actually domain a lot tecnologies in the frontend and the backend side. I love create atractive, modern and innovate, web interfaces for all kind of dispositives for the user experience comodity. <br/> In the backend, I have a most inclination a the create API REST for serve information and
+              process with respectives validations and respect the REST parameters. <br/>
+              My hobbies are related with the tecnologie and the financial world. I like actualice with the new innovations in the hardware area and also watch videos and read blogs relationed with the macroecnomy, geopolitics decisions, blockchain and crypto world, investment and savings methods. In summary, whatever economy o tecnology is mi stream :D.</p>
               <h3>Skills:</h3>
               <div className={styles.sobreMiSkills}>
                 <ul>
-                  <li><span>Conocimiento de metodologias agiles.</span></li>
-                  <li><span>Capacidad de aprendizaje constante.</span></li>
-                  <li><span>Dispuesto a trabajar en remoto.</span></li>
+                  <li><span>Knowledge in Agile Methologies</span></li>
+                  <li><span>Capacity of the constant learn.</span></li>
+                  <li><span>Remote work is posibility.</span></li>
                   </ul>
                   <ul>
-                    <li><span>Ser muy comunicativo y social con el entorno.</span></li>
-                    <li><span>Dispuesto a compartir conocimiento.</span></li>
-                    <li><span>Capacidad de reconocer y focalizarme en objetivos.</span></li>
+                    <li><span>Social and Intrapersonal comunication</span></li>
+                    <li><span>willing to share knowledges.</span></li>
+                    <li><span>Capacity of focus on goals.</span></li>
                   </ul>
                 </div>
               </div>
@@ -61,7 +63,7 @@ const Home = () => {
         </div>
         <div className={styles.tecnologiasDomino}>
             <div className={styles.tecnologiasTitle}>
-              <h2>Tecnologías Que Domino: </h2>
+              <h2>My main tecnologies: </h2>
             </div>
               <div className={styles.tecnologiesContainer}>
                 <h2>Frontend</h2>
@@ -86,7 +88,7 @@ const Home = () => {
               </div>
 
               <div className={styles.tecnologiesContainer}>
-                <h2>CMS & Extras</h2>
+                <h2>CMS & Extra</h2>
                 <div className={styles.tecnologiasItems}>
                   <img src={wordpress} alt="" />
                   <img src={git} alt="" />

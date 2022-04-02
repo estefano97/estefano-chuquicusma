@@ -23,13 +23,13 @@ const Header = () => {
         </div>
         <nav className={styles.navigation}>
             <ul>
-                <li><Link to="/">Inicio</Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/contact">Contacto</Link></li>
+                <li><Link to="/contact">Contact me</Link></li>
             </ul>
         </nav>
         <div className={styles.buttonContact}>
-            <a href={curriculum} download={curriculum}>Descarga Mi CV</a>
+            <a href={curriculum} download={curriculum}>Download my CV</a>
         </div>
         </header>
     </div>

@@ -5,11 +5,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    background-color: #141622;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(231, 26%, 11%);
     margin-top: 5rem;
 }
 
 .footerContainer a{
     color: var(--ruby);
+}
+
+@media screen and (max-width:1000px) {
+    .footerContainer > p{
+        width: 90%;
+    }
 }

@@ -5,7 +5,7 @@ const Contacto = () => {
   return (
     <div>
         <div className={styles.titleContact}>
-            <h1>Contáctame!</h1>
+            <h1>Contact with me!</h1>
             <hr color='#161925'/>
         </div>
         <div className={styles.bodyContact}>
@@ -15,18 +15,18 @@ const Contacto = () => {
             </div>
 
             <div>
-                <h2>Ubicación</h2>
+                <h2>Location</h2>
                 <p>Guayaquil, Ecuador, Parroquia Urdaneta</p>
             </div>
             
             <div>
-                <h2>Correo Electrónico</h2>
+                <h2>E-mail</h2>
                 <p>kaliestefano@gmail.com</p>
             </div>
         </div>
 
         <div className={styles.arienContact}>
-            <h2>Mi Sitio Web Para Servicios y Proyectos:</h2>
+            <h2>My website for services and digital products:</h2>
             <a href="https://www.digitalarien.com/" target="_blank" rel='noreferrer'>-&#62; Digital Arien &#60;-</a>
         </div>
     </div>

@@ -13,15 +13,24 @@
     background-color: rgb(23, 25, 36);
 }
 
+.mobileButton{
+    display: none;
+}
+
 .background > h1{
+    margin: auto;
     margin-top: 10rem;
     font-size: 3.5rem;
     text-align: center;
+    width: 90%;
 }
 
 .background > p{
     font-style: italic;
     text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
 }
 
 .videoBackground{
@@ -95,4 +104,38 @@
 
 .proyectsImages{
     border-radius: 6px;
+}
+
+@media screen and (max-width:950px) {
+    .ProyectosItem{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ProyectosText > a, .ProyectosText > button{
+        display: none;
+    }
+
+    .mobileButton[href]{
+        display: block;
+        border: none;
+        font-size: 1.25rem;
+        padding: .5rem 1.5rem;
+        border-radius: 6px;
+        color: var(--second-color);
+        background-color: var(--ruby);
+        transition: .5s;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .ProyectosItem > img{
+        width: 95%;
+    }
+
+    .background > h1{
+        margin-top: 5rem;
+    }
 }

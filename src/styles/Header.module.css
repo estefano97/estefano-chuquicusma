@@ -65,3 +65,25 @@ header > .iconsHeader img{
     color: black;
     transform: scale(1.1);
 }
+
+
+@media screen and (max-width:780px) {
+
+    header{
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navigation{
+        width: 90%;
+    }
+
+    .buttonContact{
+        display: none;
+    }
+
+    header > .iconsHeader{
+        display: none;
+    }
+}
